@@ -56,10 +56,10 @@ class ChatGPT:
 	            max_tokens=self.max_tokens
                 )
         
-        print("AI回答內容：")        
+#         print("AI回答內容：")        
         print(response['choices'][0]['text'].strip())
 
-        print("AI原始回覆資料內容：")      
+#         print("AI原始回覆資料內容：")      
         print(response)
         
         return response['choices'][0]['text'].strip()
